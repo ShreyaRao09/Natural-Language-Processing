@@ -257,6 +257,7 @@ public class Corpus {
 		for(String s:bigramProb.keySet()){
 			str+=s + " "+ String.valueOf(bigramProb.get(s))+"\n";
 		}
+		
 		writer3.write(str);
 	}
 			
