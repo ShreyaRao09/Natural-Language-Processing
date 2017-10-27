@@ -41,8 +41,8 @@ public class Corpus {
 	 * Main function. Takes a corpus as input to calculate the Bigram Counts
 	 * and probabilities for the three scenarios.
 	 * 
-	 * @param args
-	 * @throws IOException
+	 * @param args : command line arguments
+	 * @throws IOException : throws an error if unable to open a file or access it
 	 */
 	public static void main(String args[]) throws IOException{
 		String filename=null;
@@ -221,7 +221,7 @@ public class Corpus {
 	/**
 	 * Writes the bigram probabilities into the file
 	 * 
-	 * @param bigramCount : bigram probabilities calculated
+	 * @param bigramProb : bigram probabilities calculated
 	 * @throws IOException : throws an error if unable to write into file
 	 */
 	public static void displayProb1(HashMap<String, Double> bigramProb) throws IOException{
@@ -235,7 +235,7 @@ public class Corpus {
 	/**
 	 * Writes the bigram probabilities into the file
 	 * 
-	 * @param bigramCount : bigram probabilities calculated
+	 * @param bigramProb : bigram probabilities calculated
 	 * @throws IOException : throws an error if unable to write into file
 	 */
 	public static void displayProb2(HashMap<String, Double> bigramProb) throws IOException{
@@ -249,7 +249,7 @@ public class Corpus {
 	/**
 	 * Writes the bigram probabilities into the file
 	 * 
-	 * @param bigramCount : bigram probabilities calculated
+	 * @param bigramProb : bigram probabilities calculated
 	 * @throws IOException : throws an error if unable to write into file
 	 */
 	public static void displayProb3(HashMap<String, Double> bigramProb) throws IOException{
