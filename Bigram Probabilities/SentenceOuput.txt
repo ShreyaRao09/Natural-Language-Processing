@@ -1,0 +1,68 @@
+CORPUS
+number of Bigrams : 30231
+Unique Bigram count : 18138
+Unique Unigram count : 5607
+Total count : 30232
+
+WITHOUT SMOOTHING
+
+Bigram Count Of The Given Sentence
+BIGRAM		COUNT
+vice president  	 11
+retired vice  	 1
+and treasurer  	 2
+president and  	 45
+treasurer of  	 1
+
+Bigram Probability Of The Given Sentence
+BIGRAM		PROB
+vice president  	0.19643506901619434
+retired vice  	0.11111478651421094
+and treasurer  	0.0029543074700971892
+president and  	0.5000165393139492
+treasurer of  	0.3333443595426328
+
+Sentence probability = 1.0747910800157007E-5
+
+
+ADD ONE SMOOTHING
+
+Bigram Count before smoothing
+BIGRAM		COUNT
+vice president  	 11
+retired vice  	 1
+and treasurer  	 2
+president and  	 45
+treasurer of  	 1
+
+Bigram Probabilities after Smoothing
+BIGRAM		PROB
+vice president  	0.002119018188239449
+retired vice  	3.5612535612535614E-4
+and treasurer  	4.7740292807129216E-4
+president and  	0.00807442513603651
+treasurer of  	3.5650623885918E-4
+
+Sentence probability = 1.0370540835904178E-15
+
+
+GOOD TURING DISCOUNTING
+
+Bigram Count before smoothing
+BIGRAM		COUNT
+vice president  	 11
+retired vice  	 1
+and treasurer  	 2
+president and  	 45
+treasurer of  	 1
+
+Bigram Probabilities after smoothing
+BIGRAM		PROB
+vice president  	0.0
+retired vice  	3.307862789851477E-5
+and treasurer  	0.0
+president and  	0.0
+treasurer of  	3.307862789851477E-5
+
+Sentence Probability = 0.0
+
