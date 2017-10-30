@@ -1,1 +1,0 @@
-The_DT president_NN wants_VBZ to_TO control_VB the_DT board_NN 's_POS control_NN 
