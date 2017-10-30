@@ -1,0 +1,2 @@
+Without Rules, Error : 11.11111111111111
+With Rules, Error: 11.11111111111111
